@@ -17,7 +17,7 @@ class TestCalculator():
         assert self.calc.subtraction(10,1) == 9
     
     def test_multiplication(self):
-        assert self.calc.multiplication(3,4) == 13
+        assert self.calc.multiplication(3,4) == 12
     
     def test_division(self):
         assert self.calc.division(10,2) == 5
